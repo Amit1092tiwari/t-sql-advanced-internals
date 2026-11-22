@@ -1,0 +1,30 @@
+name: Alternative Solution / Optimization Proposal
+description: Propose an alternative algorithmic solution or query optimization
+labels: ["optimization", "solutions"]
+body:
+  - type: dropdown
+    id: dialect
+    attributes:
+      label: Target Dialect
+      options:
+        - Microsoft SQL Server (T-SQL)
+        - PostgreSQL (16+)
+        - Snowflake
+        - Google BigQuery
+        - DuckDB
+    validations:
+      required: true
+  - type: textarea
+    id: puzzle_ref
+    attributes:
+      label: Puzzle Number / Topic
+      description: e.g. Puzzle #12 Average Daily Sales or Multi-hop Hierarchy
+    validations:
+      required: true
+  - type: textarea
+    id: execution_plan
+    attributes:
+      label: Execution Plan / Cost Characteristics
+      description: Explain how this solution improves CPU time, logical reads, or eliminates spills.
+    validations:
+      required: true

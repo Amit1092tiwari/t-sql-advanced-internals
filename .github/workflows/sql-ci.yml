@@ -30,6 +30,16 @@ jobs:
       - name: Checkout Codebase
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Determinism & Governance Test Suite
+        run: |
+          pip install pytest
+          pytest -v tests/
+
       - name: Install SQL Server Client Tools (sqlcmd)
         run: |
           curl https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc

@@ -3,6 +3,8 @@
 [![SQL Engine CI](https://github.com/Amit1092tiwari/t-sql-advanced-internals/actions/workflows/sql-ci.yml/badge.svg)](https://github.com/Amit1092tiwari/t-sql-advanced-internals/actions/workflows/sql-ci.yml)
 [![Daily Batch Job](https://github.com/Amit1092tiwari/t-sql-advanced-internals/actions/workflows/daily-batch.yml/badge.svg)](https://github.com/Amit1092tiwari/t-sql-advanced-internals/actions/workflows/daily-batch.yml)
 [![Pages Deployment](https://github.com/Amit1092tiwari/t-sql-advanced-internals/actions/workflows/static.yml/badge.svg)](https://github.com/Amit1092tiwari/t-sql-advanced-internals/actions/workflows/static.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Complexity Guide](https://img.shields.io/badge/Guide-Complexity%20%26%20Sargability-purple.svg)](COMPLEXITY_GUIDE.md)
 [![Platform](https://img.shields.io/badge/Platform-MSSQL%20%7C%20PostgreSQL%20%7C%20Snowflake%20%7C%20BigQuery%20%7C%20DuckDB-blue.svg)](#cross-engine-capability-matrix)
 [![Cloud](https://img.shields.io/badge/Azure-Data%20Factory%20%7C%20Databricks%20%7C%20Delta%20Lake%20%7C%20Terraform-orange.svg)](#-microsoft-azure-cloud-data-engineering--iac)
 [![Puzzles](https://img.shields.io/badge/Puzzles-55%20Core%20%2B%2011%20Bonus-brightgreen.svg)](#-55-advanced-sql-puzzles-directory)
